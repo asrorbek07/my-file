@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Karla";
+    src: url("../fonts/Karla/static") format("woff");
+}
+@font-face {
+    font-family: "DM Serif Display";
+    src: url("../fonts/DM_Serif_Display") format("woff");
+}
+*{ margin: 0; padding: 0;}
+body{
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: "DM Serif Display",sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    padding-right: 13%;
+    padding-left: 13%;
+    height: 80px;
+    padding-top: 20px;
+}
+ul{
+
+    list-style-type: none;
+
+}
+ul li{
+    list-style-type: none;
+    display: block;
+
+
+
+}
+ul li a{
+    text-decoration: none;
+    color: #2a272e;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px;
+}
+ul li a:hover{
+    color:#2b282f ;
+}
+.btn{
+    border: 1px solid #2b282f;
+}
+.btn:hover{
+    background-color: #2b282f;
+    color: white;
+}
+/*.header{*/
+/*    padding-right: 13%;*/
+/*    padding-left: 13%;*/
+
+/*}*/
+.conteiner{
+  padding: 30px 13%;
+
+}
+hr{
+    width: 150px;
+    margin-bottom: 30px;
+}
+h1 {
+    font-size: 4rem;
+    margin-bottom: 30px;
+    color: #2a272e;
+}
+.flex .page{
+    width: 30%;
+
+}
+h3{
+    margin:  20px 0;
+    color: #7f7d80;
+}
+p{
+    width: 100%;
+    text-align: justify;
+    color: #2a272e;
+}
+
